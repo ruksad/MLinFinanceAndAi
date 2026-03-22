@@ -1,0 +1,11 @@
+brew install pyenv
+
+pyenv install 3.10.14
+pyenv install 3.11.8
+pyenv global 3.11.8
+pyenv local 3.10.14
+
+
+python3 -m venv local
+source local/bin/activate
+pip install -r requirements.txt
